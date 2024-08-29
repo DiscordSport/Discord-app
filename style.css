@@ -136,5 +136,64 @@ img#perfil{
     transform: translateX(-50%);
 }
 
+div#verifica{
+    display: none;
+    background-color:#23272a ;
+    width: 90%;
+    height: 10%;
+    min-height: 180px;
 
+    max-width: 400px;
+    max-height: 180px;
+    padding: 10px;
+
+
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+}
+label#l_veri{
+    text-align: center;
+    position: relative;
+    top: 30%;
+
+    transform: translateY(-50%);
+}
+input#iveri{
+    padding: 1px;
+    font-size: 0.9em;
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+    padding-left: 3px;
+}
+input#apanha{
+    color: white;
+    font-weight: bolder;
+    background-color: #5865F2;
+
+    margin-top: 15px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+}
+
+input#apanha:hover{
+    background-color: #4856f0;
+}
+form#outro{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
 
